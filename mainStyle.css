@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Inter-Regular;
+  src: url("fonts/Inter-Regular.otf");
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url("fonts/Inter-Medium.otf");
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url("fonts/Inter-SemiBold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.websiteContainer {
+  margin: 24px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.topContainer {
+  width: 100%;
+  height: 50%;
+}
+
+
+.logoContainer {
+  margin: 0;
+  float: left;
+  width: 50%;
+  height: 35vh;
+  background-color: white;
+  font-size: 48px;
+  font-family: Inter-SemiBold;
+}
+
+.contactInfoContainer {
+  float: right;
+  width: 50%;
+  height: 35vh;
+  max-height: 40vh;
+  background-color: white;
+  font-family: Inter-Regular;
+  font-size: 14px;
+}
+
+.workPreviewContainer {
+  width: 100%;
+  height: 48%;
+  font-family: Inter-Medium;
+}
+
+.splideImage {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
