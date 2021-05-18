@@ -34,19 +34,23 @@
   margin: 0;
   float: left;
   width: 50%;
-  height: 35vh;
+  height: 32vh;
   background-color: white;
   font-size: 48px;
   font-family: Inter-SemiBold;
 }
 
+.logo {
+  margin-top: -8px;
+}
+
 .contactInfoContainer {
   float: right;
   width: 50%;
-  height: 35vh;
+  height: 32vh;
   max-height: 40vh;
   background-color: white;
-  font-family: Inter-Regular;
+  font-family: Inter-Medium;
   font-size: 14px;
 }
 
@@ -54,10 +58,35 @@
   width: 100%;
   height: 48%;
   font-family: Inter-Medium;
+  margin-bottom: 64px;
 }
 
-.splideImage {
+.slideshowImage {
   object-fit: cover;
   width: 100%;
   height: 400px;
+}
+
+.prev, .next, .fullGalleryButton {
+  margin-top: 16px;
+  padding-top: 8px;
+  padding: 8px;
+  border: 1px solid black;
+  font-size: 14px;
+  font-family: Inter-Regular;
+  cursor: pointer;
+}
+
+.prev, .next {
+  float: left;
+}
+
+.next {
+  margin-left: 8px;
+}
+
+.fullGalleryButton {
+  float: right;
+  text-decoration: none;
+  color: black;
 }
