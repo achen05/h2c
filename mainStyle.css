@@ -34,7 +34,7 @@
   margin: 0;
   float: left;
   width: 50%;
-  height: 32vh;
+  height: 40vh;
   background-color: white;
   font-size: 48px;
   font-family: Inter-SemiBold;
@@ -47,7 +47,7 @@
 .contactInfoContainer {
   float: right;
   width: 50%;
-  height: 32vh;
+  height: 40vh;
   max-height: 40vh;
   background-color: white;
   font-family: Inter-Medium;
