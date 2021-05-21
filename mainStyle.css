@@ -64,7 +64,7 @@
 .slideshowImage {
   object-fit: cover;
   width: 100%;
-  height: 400px;
+  height: 464px;
 }
 
 .prev, .next, .fullGalleryButton {
@@ -89,4 +89,15 @@
   float: right;
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+  .slideshowImage {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+  }
+
+
 }
