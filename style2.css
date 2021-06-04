@@ -112,6 +112,7 @@ p {
 @media only screen and (max-width: 600px) {
 
   .websiteContainer {
+    margin-top: 36px;
     margin-bottom: 0px;
   }
 
