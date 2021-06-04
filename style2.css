@@ -54,7 +54,7 @@ p {
   max-width: 500px;
   text-align: left;
   color: yellow;
-  margin-bottom: 100px;
+  margin-bottom: 64px;
 }
 
 .logo {
@@ -93,7 +93,6 @@ p {
   text-align: center;
   width: 50%;
   padding-top: 100px;
-  padding-bottom: 100px;
   color: yellow;
   border: 1px solid yellow;
   box-sizing: border-box;
@@ -111,9 +110,23 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  #primaryInfoContainer {
 
+  .websiteContainer {
+    margin-bottom: 0px;
+  }
+
+
+  #primaryInfoContainer {
     margin-bottom: 8vh;
+  }
+
+  .buttonContainer {
+    height: 124px;
+  }
+
+  .largeButton {
+    padding-top: 56px;
+
   }
 
 }
